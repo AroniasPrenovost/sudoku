@@ -1,3 +1,52 @@
+      document.getElementById('myBtn1').onclick = function() {
+        document.getElementById("myForm").reset();
+        $("input").prop('readonly', false);
+        document.getElementById("inp4").value = "5";
+        document.getElementById('inp4').readOnly = true;
+        document.getElementById("inp6").value = "8";
+        document.getElementById('inp6').readOnly = true;
+        document.getElementById("inp32").value = "8";
+        document.getElementById('inp32').readOnly = true;
+        document.getElementById("inp39").value = "8";
+        document.getElementById('inp39').readOnly = true;
+        document.getElementById("inp71").value = "8";
+        document.getElementById('inp71').readOnly = true;
+        document.getElementById("inp59").value = "8";
+        document.getElementById('inp59').readOnly = true;
+      }
+      document.getElementById('myBtn2').onclick = function() {
+          document.getElementById("myForm").reset();
+          $("input").prop('readonly', false);
+           $('input').addClass('form-control');
+        document.getElementById("inp1").value = "5";
+        document.getElementById('inp1').readOnly = true;
+        document.getElementById("inp8").value = "8";
+        document.getElementById('inp8').readOnly = true;
+        document.getElementById("inp70").value = "8";
+        document.getElementById('inp70').readOnly = true;
+        document.getElementById("inp23").value = "8";
+        document.getElementById('inp23').readOnly = true;
+        document.getElementById("inp41").value = "8";
+        document.getElementById('inp41').readOnly = true;
+        document.getElementById("inp39").value = "8";
+        document.getElementById('inp39').readOnly = true;
+      }
+        document.getElementById('myBtn3').onclick = function() {
+          document.getElementById("myForm").reset();
+          $("input").prop('readonly', false);
+        document.getElementById("inp2").value = "5";
+        document.getElementById('inp2').readOnly = true;
+        document.getElementById("inp7").value = "8";
+        document.getElementById('inp7').readOnly = true;
+        document.getElementById("inp72").value = "8";
+        document.getElementById('inp72').readOnly = true;
+        document.getElementById("inp54").value = "8";
+        document.getElementById('inp54').readOnly = true;
+        document.getElementById("inp42").value = "8";
+        document.getElementById('inp42').readOnly = true;
+        document.getElementById("inp38").value = "9";
+        document.getElementById('inp38').readOnly = true;
+      }
 //-- REQUIREMENTS --// 
 // - uniquely ordered arrays
 // - must #'s 1-9, no 0's 
@@ -85,7 +134,6 @@ for(var i = 0; i < vertRowIntegers.length; i++){
 		}	
 	}
 }
-
 document.getElementById('myBtn').onclick = function(){
 	var inp1 = Number(document.getElementById('inp1').value);
 	var inp2 = Number(document.getElementById('inp2').value);
@@ -179,17 +227,5 @@ document.getElementById('myBtn').onclick = function(){
 	[inp64,inp65,inp66,inp67,inp68,inp69,inp70,inp71,inp72],
 	[inp73,inp74,inp75,inp76,inp77,inp78,inp79,inp80,inp81]
 	]
-	alert(validSolution(solution));
-//      var total_bill = inp1 + inp2 + inp3;
-//      document.getElementById("demo").innerHTML= "%"+Number(total_bill).toFixed(2);  
-}
-
-// test code to create pre-filled quizzes
-function fillValuesInTextBoxes()
-{
-    var text = document.getElementById("firsttextbox").value;
-
-    document.getElementById("inp1").value = text;
-    document.getElementById("inp34").value = text;
-    document.getElementById("10").value = text;
+	alert(validSolution(solution)); 
 }
