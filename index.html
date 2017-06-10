@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <title>Zack Sultan</title>
+  <title>| Daily Sudoku Trainer</title>
   <!-- stylesheet css -->
   <link rel="stylesheet" href="index.css">
   <!-- google web font css -->
@@ -14,12 +14,46 @@
 </head>
 <body>
   <div id="center-form">
-    <h1>Daily Sudoku Trainer</h1>
+    <h1>Sudoku Trainer</h1>
+    <button type="button" id="myBtn1">Easy</button>
+    <button type="button" id="myBtn2">Medium</button>
+    <button type="button" id="myBtn3">Hard</button>
+    <script type="text/javascript"> 
+      document.getElementById('myBtn1').onclick = function() {
+        document.getElementById("inp1").value = "5";
+        document.getElementById('inp1').readOnly = true;
+        document.getElementById("inp6").value = "8";
+        document.getElementById('inp6').readOnly = true;
+        document.getElementById("inp32").value = "8";
+        document.getElementById('inp32').readOnly = true;
+        document.getElementById("inp33").value = "8";
+        document.getElementById('inp33').readOnly = true;
+        document.getElementById("inp71").value = "8";
+        document.getElementById('inp71').readOnly = true;
+        document.getElementById("inp59").value = "8";
+        document.getElementById('inp59').readOnly = true;
+      }
+      document.getElementById('myBtn2').onclick = function() {
+        document.getElementById("inp1").value = "5";
+        document.getElementById('inp1').readOnly = true;
+        document.getElementById("inp6").value = "8";
+        document.getElementById('inp6').readOnly = true;
+        document.getElementById("inp32").value = "8";
+        document.getElementById('inp32').readOnly = true;
+        document.getElementById("inp33").value = "8";
+        document.getElementById('inp33').readOnly = true;
+        document.getElementById("inp71").value = "8";
+        document.getElementById('inp71').readOnly = true;
+        document.getElementById("inp59").value = "8";
+        document.getElementById('inp59').readOnly = true;
+      }
+    </script>
     <form>         
       <div class="divTable" style="width: 8%;">
         <div class="divTableBody">
+          <div class="spacer"></div>
           <div class="divTableRow">
-          <div class="divTableCell"><input id="inp1" type="text"></div>
+            <div class="divTableCell"><input id="inp1" type="text"></div>
             <div class="divTableCell"><input id="inp2" type="text"></div>
             <div class="divTableCell"><input id="inp3" type="text"></div>
             <div class="divTableCell"><input id="inp4" type="text"></div>
@@ -41,8 +75,9 @@
             <div class="divTableCell"><input id="inp18" type="text"></div>
           </div>
           <div class="divTableRow">
-            <div class="divTableCell bottom-border"><input id="inp19" type="text"></div>
-            <div class="divTableCell bottom-border"><input id="inp20" type="text"></div>
+            <div class="divTableCell"><input id="inp19" type="text"></div>
+
+            <div class="divTableCell"><input id="inp20" type="text"></div>
             <div class="divTableCell"><input id="inp21" type="text"></div>
             <div class="divTableCell"><input id="inp22" type="text"></div>
             <div class="divTableCell"><input id="inp23" type="text"></div>
@@ -51,6 +86,7 @@
             <div class="divTableCell"><input id="inp26" type="text"></div>
             <div class="divTableCell"><input id="inp27" type="text"></div>
           </div>
+          <div class="spacer"></div>
           <div class="divTableRow">
             <div class="divTableCell"><input id="inp28" type="text"></div>
             <div class="divTableCell"><input id="inp29" type="text"></div>
@@ -84,6 +120,7 @@
             <div class="divTableCell"><input id="inp53" type="text"></div>
             <div class="divTableCell"><input id="inp54" type="text"></div>
           </div>
+          <div class="spacer"></div>
           <div class="divTableRow">
             <div class="divTableCell"><input id="inp55" type="text"></div>
             <div class="divTableCell"><input id="inp56" type="text"></div>
@@ -117,6 +154,7 @@
             <div class="divTableCell"><input id="inp80" type="text"></div>
             <div class="divTableCell"><input id="inp81" type="text"></div>
           </div>
+          <div class="spacer"></div>
         </div>
       </div>
       <button type="button" id="myBtn">Check My Solution</button>

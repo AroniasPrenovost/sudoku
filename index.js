@@ -82,8 +82,8 @@ for(var i = 0; i < vertRowIntegers.length; i++){
 		return false;
 	} else {
 		return true
-	}	
-}
+		}	
+	}
 }
 
 document.getElementById('myBtn').onclick = function(){
@@ -169,7 +169,6 @@ document.getElementById('myBtn').onclick = function(){
 	var inp80 = Number(document.getElementById('inp80').value);
 	var inp81 = Number(document.getElementById('inp81').value);
 
-
 	var solution = [[inp1,inp2,inp3,inp4,inp5,inp6,inp7,inp8,inp9],
 	[inp10,inp11,inp12,inp13,inp14,inp15,inp16,inp17,inp18],
 	[inp19,inp20,inp21,inp22,inp23,inp24,inp25,inp26,inp27],
@@ -185,9 +184,7 @@ document.getElementById('myBtn').onclick = function(){
 //      document.getElementById("demo").innerHTML= "%"+Number(total_bill).toFixed(2);  
 }
 
-
 // test code to create pre-filled quizzes
-
 function fillValuesInTextBoxes()
 {
     var text = document.getElementById("firsttextbox").value;
@@ -196,7 +193,3 @@ function fillValuesInTextBoxes()
     document.getElementById("inp34").value = text;
     document.getElementById("10").value = text;
 }
-
-
-
-
