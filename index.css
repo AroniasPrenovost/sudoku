@@ -1,7 +1,7 @@
 /* body */
 body {
   background-image: url("desk.jpg");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size:cover;
   text-align: center;
 }
@@ -11,17 +11,17 @@ h1 {
 }
 
 button {
-    background: #428BCA;
-    color: #fff;
-    font-family: Sans-serif;
-    font-size: 14px;
-    height: 40px;
-    width: 70px;
-    line-height: 20px;
-    margin:15px 15px;
-    text-align: center;
-    border: 0;
-    transition: all 0.3s ease 0s;
+  background: #428BCA;
+  color: #fff;
+  font-family: Sans-serif;
+  font-size: 14px;
+  height: 40px;
+  width: 70px;
+  line-height: 20px;
+  margin:15px 15px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s ease 0s;
 }
 
 button:hover {
@@ -30,15 +30,19 @@ button:hover {
 
 .divTable{
   display: table;
-      margin: 0 auto;
+  margin: 0 auto;
 }
 input {
   padding:10px;
   width:16px;
-  font-size: 18px
+  font-size: 20px
 }
 input[type=text]:focus {
   outline:none;
+}
+input[readonly] {
+  font-weight:bold;
+  color:#c0392b;
 }
 
 .divTableRow {
@@ -51,8 +55,8 @@ input[type=text]:focus {
 }
 .divTableCell, .divTableHead {
   border: 1px solid black;
-    border-bottom:0px;
-    border-top:0px;
+  border-bottom:0px;
+  border-top:0px;
   display: table-cell;
   padding: 0px 0px;
 }

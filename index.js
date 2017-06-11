@@ -17,7 +17,6 @@
       document.getElementById('myBtn2').onclick = function() {
           document.getElementById("myForm").reset();
           $("input").prop('readonly', false);
-           $('input').addClass('form-control');
         document.getElementById("inp1").value = "5";
         document.getElementById('inp1').readOnly = true;
         document.getElementById("inp8").value = "8";
