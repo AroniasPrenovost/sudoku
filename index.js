@@ -1,4 +1,4 @@
-      document.getElementById('myBtn1').onclick = function() {
+    document.getElementById('myBtn1').onclick = function() {
         document.getElementById("myForm").reset();
         $("input").prop('readonly', false);
         document.getElementById("inp4").value = "5";
@@ -33,18 +33,28 @@
         document.getElementById('myBtn3').onclick = function() {
           document.getElementById("myForm").reset();
           $("input").prop('readonly', false);
-        document.getElementById("inp2").value = "5";
-        document.getElementById('inp2').readOnly = true;
-        document.getElementById("inp7").value = "8";
-        document.getElementById('inp7').readOnly = true;
-        document.getElementById("inp72").value = "8";
-        document.getElementById('inp72').readOnly = true;
-        document.getElementById("inp54").value = "8";
-        document.getElementById('inp54').readOnly = true;
-        document.getElementById("inp42").value = "8";
+        document.getElementById("inp1").value = "8";
+        document.getElementById('inp1').readOnly = true;
+        document.getElementById("inp12").value = "3";
+        document.getElementById('inp12').readOnly = true;
+        document.getElementById("inp13").value = "6";
+        document.getElementById('inp13').readOnly = true;
+        document.getElementById("inp20").value = "7";
+        document.getElementById('inp20').readOnly = true;
+        document.getElementById("inp23").value = "9";
+        document.getElementById('inp23').readOnly = true;
+        document.getElementById("inp25").value = "2";
+        document.getElementById('inp25').readOnly = true;
+                document.getElementById("inp29").value = "5";
+        document.getElementById('inp29').readOnly = true;
+                document.getElementById("inp33").value = "7";
+        document.getElementById('inp33').readOnly = true;
+                document.getElementById("inp41").value = "4";
+        document.getElementById('inp41').readOnly = true;
+                document.getElementById("inp42").value = "5";
         document.getElementById('inp42').readOnly = true;
-        document.getElementById("inp38").value = "9";
-        document.getElementById('inp38').readOnly = true;
+                document.getElementById("inp43").value = "7";
+        document.getElementById('inp43').readOnly = true;
       }
 //-- REQUIREMENTS --// 
 // - uniquely ordered arrays

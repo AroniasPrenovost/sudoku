@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <title>| Sudoku Trainer</title>
+  <title>| Daily Sudoku Trainer</title>
+  <meta name="description" content="Solve 3 separate sudoku puzzles at easy, medium, and hard difficulty. Each row and column must have numbers 1-9, and each table cell must contain the same numbers with none interesecting. No zeros."/>
   <link rel="stylesheet" href="index.css">
   <!-- google web font css -->
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -21,105 +22,105 @@
       <div class="divTableBody">
         <div class="spacer"></div>
         <div class="divTableRow">
-        <div class="divTableCell"><input id="inp1" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp2" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp3" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp4" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp5" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp6" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp7" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp8" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp9" class="nmbonly" type="text"></div>
+        <div class="divTableCell"><input id="inp1" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp2" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp3" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp4" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp5" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp6" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp7" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp8" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp9" class="nmbonly" type="text" maxlength="1"></div>
         </div>
         <div class="divTableRow">
-          <div class="divTableCell"> <input id="inp10" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp11" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp12" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp13" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp14" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp15" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp16" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp17" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp18" class="nmbonly" type="text"></div>
+          <div class="divTableCell"> <input id="inp10" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp11" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp12" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp13" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp14" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp15" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp16" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp17" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp18" class="nmbonly" type="text" maxlength="1"></div>
         </div>
         <div class="divTableRow">
-          <div class="divTableCell"><input id="inp19" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp20" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp21" class="nmbonly"  type="text"></div>
-          <div class="divTableCell"><input id="inp22" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp23" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp24" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp25" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp26" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp27" class="nmbonly" type="text"></div>
-        </div>
-        <div class="spacer"></div>
-        <div class="divTableRow">
-          <div class="divTableCell"><input id="inp28" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp29" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp30" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp31" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp32" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp33" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp34" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp35" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp36" class="nmbonly" type="text"></div>
-        </div>
-        <div class="divTableRow">
-          <div class="divTableCell"><input id="inp37" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp38" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp39" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp40" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp41" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp42" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp43" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp44" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp45" class="nmbonly" type="text"></div>
-        </div>
-        <div class="divTableRow">
-          <div class="divTableCell"><input id="inp46" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp47" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp48" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp49" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp50" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp51" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp52" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp53" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp54" class="nmbonly" type="text"></div>
+          <div class="divTableCell"><input id="inp19" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp20" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp21" class="nmbonly"  type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp22" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp23" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp24" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp25" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp26" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp27" class="nmbonly" type="text" maxlength="1"></div>
         </div>
         <div class="spacer"></div>
         <div class="divTableRow">
-          <div class="divTableCell"><input id="inp55" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp56" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp57" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp58" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp59" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp60" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp61" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp62" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp63" class="nmbonly" type="text"></div>
+          <div class="divTableCell"><input id="inp28" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp29" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp30" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp31" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp32" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp33" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp34" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp35" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp36" class="nmbonly" type="text" maxlength="1"></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell"><input id="inp37" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp38" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp39" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp40" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp41" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp42" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp43" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp44" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp45" class="nmbonly" type="text" maxlength="1"></div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell"><input id="inp46" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp47" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp48" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp49" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp50" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp51" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp52" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp53" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp54" class="nmbonly" type="text" maxlength="1"></div>
+        </div>
+        <div class="spacer"></div>
+        <div class="divTableRow">
+          <div class="divTableCell"><input id="inp55" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp56" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp57" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp58" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp59" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp60" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp61" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp62" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp63" class="nmbonly" type="text" maxlength="1"></div>
         </div>       
         <div class="divTableRow">
-          <div class="divTableCell"><input id="inp64" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp65" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp66" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp67" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp68" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp69" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp70" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp71" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp72" class="nmbonly" type="text"></div>
+          <div class="divTableCell"><input id="inp64" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp65" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp66" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp67" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp68" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp69" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp70" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp71" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp72" class="nmbonly" type="text" maxlength="1"></div>
         </div>
         <div class="divTableRow">
-          <div class="divTableCell"><input id="inp73" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp74" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp75" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp76" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp77" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp78" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp79" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp80" class="nmbonly" type="text"></div>
-          <div class="divTableCell"><input id="inp81" class="nmbonly" type="text"></div>
+          <div class="divTableCell"><input id="inp73" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp74" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp75" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp76" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp77" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp78" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp79" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp80" class="nmbonly" type="text" maxlength="1"></div>
+          <div class="divTableCell"><input id="inp81" class="nmbonly" type="text" maxlength="1"></div>
         </div>
         <div class="spacer"></div>
       </div>
