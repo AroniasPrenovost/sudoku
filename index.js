@@ -1,36 +1,126 @@
-    document.getElementById('myBtn1').onclick = function() {
-        document.getElementById("myForm").reset();
-        $("input").prop('readonly', false);
-        document.getElementById("inp4").value = "5";
-        document.getElementById('inp4').readOnly = true;
-        document.getElementById("inp6").value = "8";
-        document.getElementById('inp6').readOnly = true;
-        document.getElementById("inp32").value = "8";
-        document.getElementById('inp32').readOnly = true;
-        document.getElementById("inp39").value = "8";
-        document.getElementById('inp39').readOnly = true;
-        document.getElementById("inp71").value = "8";
-        document.getElementById('inp71').readOnly = true;
-        document.getElementById("inp59").value = "8";
-        document.getElementById('inp59').readOnly = true;
-      }
-      document.getElementById('myBtn2').onclick = function() {
+document.getElementById('myBtn1').onclick = function() {
           document.getElementById("myForm").reset();
           $("input").prop('readonly', false);
-        document.getElementById("inp1").value = "5";
+        document.getElementById("inp1").value = "2";
         document.getElementById('inp1').readOnly = true;
-        document.getElementById("inp8").value = "8";
-        document.getElementById('inp8').readOnly = true;
-        document.getElementById("inp70").value = "8";
+        document.getElementById("inp2").value = "5";
+        document.getElementById('inp2').readOnly = true;
+        document.getElementById("inp12").value = "3";
+        document.getElementById('inp12').readOnly = true;
+        document.getElementById("inp13").value = "1";
+        document.getElementById('inp13').readOnly = true;
+        document.getElementById("inp14").value = "5";
+        document.getElementById('inp14').readOnly = true;
+        document.getElementById("inp16").value = "2";
+        document.getElementById('inp16').readOnly = true;
+        document.getElementById("inp17").value = "7";
+        document.getElementById('inp17').readOnly = true;
+        document.getElementById("inp22").value = "4";
+        document.getElementById('inp22').readOnly = true;
+        document.getElementById("inp24").value = "3";
+        document.getElementById('inp24').readOnly = true;
+        document.getElementById("inp26").value = "5";
+        document.getElementById('inp26').readOnly = true;
+        document.getElementById("inp28").value = "3";
+        document.getElementById('inp28').readOnly = true;
+        document.getElementById("inp31").value = "5";
+        document.getElementById('inp31').readOnly = true;
+        document.getElementById("inp35").value = "1";
+        document.getElementById('inp35').readOnly = true;
+        document.getElementById("inp36").value = "4";
+        document.getElementById('inp36').readOnly = true;
+        document.getElementById("inp37").value = "5";
+        document.getElementById('inp37').readOnly = true;
+        document.getElementById("inp40").value = "3";
+        document.getElementById('inp40').readOnly = true;
+        document.getElementById("inp42").value = "6";
+        document.getElementById('inp42').readOnly = true;
+        document.getElementById("inp45").value = "9";
+        document.getElementById('inp45').readOnly = true;
+        document.getElementById("inp46").value = "4";
+        document.getElementById('inp46').readOnly = true;
+        document.getElementById("inp47").value = "9";
+        document.getElementById('inp47').readOnly = true;
+        document.getElementById("inp51").value = "8";
+        document.getElementById('inp51').readOnly = true;
+        document.getElementById("inp54").value = "2";
+        document.getElementById('inp54').readOnly = true;
+        document.getElementById("inp56").value = "2";
+        document.getElementById('inp56').readOnly = true;
+        document.getElementById("inp58").value = "8";
+        document.getElementById('inp58').readOnly = true;
+        document.getElementById("inp60").value = "4";
+        document.getElementById('inp60').readOnly = true;
+        document.getElementById('inp65').value = "6";
+        document.getElementById('inp65').readOnly = true;
+        document.getElementById('inp66').value = "4";
+        document.getElementById('inp66').readOnly = true;
+        document.getElementById('inp68').value = "7";
+        document.getElementById('inp68').readOnly = true;
+        document.getElementById('inp69').value = "5";
+        document.getElementById('inp69').readOnly = true;
+        document.getElementById('inp70').value = "8";
         document.getElementById('inp70').readOnly = true;
-        document.getElementById("inp23").value = "8";
-        document.getElementById('inp23').readOnly = true;
-        document.getElementById("inp41").value = "8";
-        document.getElementById('inp41').readOnly = true;
-        document.getElementById("inp39").value = "8";
-        document.getElementById('inp39').readOnly = true;
+        document.getElementById('inp80').value = "2";
+        document.getElementById('inp80').readOnly = true;
+        document.getElementById('inp81').value = "7";
+        document.getElementById('inp81').readOnly = true;
       }
-        document.getElementById('myBtn3').onclick = function() {
+ document.getElementById('myBtn2').onclick = function() {
+          document.getElementById("myForm").reset();
+          $("input").prop('readonly', false);
+        document.getElementById("inp4").value = "5";
+        document.getElementById('inp4').readOnly = true;
+        document.getElementById("inp5").value = "4";
+        document.getElementById('inp5').readOnly = true;
+        document.getElementById("inp9").value = "8";
+        document.getElementById('inp9').readOnly = true;
+        document.getElementById("inp10").value = "6";
+        document.getElementById('inp10').readOnly = true;
+        document.getElementById("inp15").value = "2";
+        document.getElementById('inp15').readOnly = true;
+        document.getElementById("inp16").value = "3";
+        document.getElementById('inp16').readOnly = true;
+        document.getElementById("inp21").value = "7";
+        document.getElementById('inp21').readOnly = true;
+        document.getElementById("inp24").value = "3";
+        document.getElementById('inp26').readOnly = true;
+        document.getElementById("inp26").value = "9";
+        document.getElementById('inp24').readOnly = true;
+        document.getElementById("inp29").value = "3";
+        document.getElementById('inp29').readOnly = true;
+        document.getElementById("inp30").value = "1";
+        document.getElementById('inp30').readOnly = true;
+        document.getElementById("inp32").value = "5";
+        document.getElementById('inp32').readOnly = true;
+        document.getElementById("inp35").value = "2";
+        document.getElementById('inp35').readOnly = true;
+        document.getElementById("inp47").value = "4";
+        document.getElementById('inp47').readOnly = true;
+        document.getElementById("inp50").value = "3";
+        document.getElementById('inp50').readOnly = true;
+        document.getElementById("inp52").value = "7";
+        document.getElementById('inp52').readOnly = true;
+        document.getElementById("inp53").value = "1";
+        document.getElementById('inp53').readOnly = true;
+        document.getElementById("inp56").value = "9";
+        document.getElementById('inp56').readOnly = true;
+        document.getElementById("inp58").value = "7";
+        document.getElementById('inp58').readOnly = true;
+        document.getElementById("inp61").value = "2";
+        document.getElementById('inp61').readOnly = true;
+        document.getElementById("inp66").value = "8";
+        document.getElementById('inp66').readOnly = true;
+        document.getElementById("inp67").value = "6";
+        document.getElementById('inp67').readOnly = true;
+        document.getElementById("inp72").value = "5";
+        document.getElementById('inp72').readOnly = true;
+        document.getElementById("inp77").value = "2";
+        document.getElementById('inp77').readOnly = true;
+        document.getElementById("inp78").value = "4";
+        document.getElementById('inp78').readOnly = true;
+      }
+       document.getElementById('myBtn3').onclick = function() {
           document.getElementById("myForm").reset();
           $("input").prop('readonly', false);
         document.getElementById("inp1").value = "8";
@@ -45,20 +135,41 @@
         document.getElementById('inp23').readOnly = true;
         document.getElementById("inp25").value = "2";
         document.getElementById('inp25').readOnly = true;
-                document.getElementById("inp29").value = "5";
+        document.getElementById("inp29").value = "5";
         document.getElementById('inp29').readOnly = true;
-                document.getElementById("inp33").value = "7";
+        document.getElementById("inp33").value = "7";
         document.getElementById('inp33').readOnly = true;
-                document.getElementById("inp41").value = "4";
+        document.getElementById("inp41").value = "4";
         document.getElementById('inp41').readOnly = true;
-                document.getElementById("inp42").value = "5";
+        document.getElementById("inp42").value = "5";
         document.getElementById('inp42').readOnly = true;
-                document.getElementById("inp43").value = "7";
+        document.getElementById("inp43").value = "7";
         document.getElementById('inp43').readOnly = true;
+        document.getElementById("inp49").value = "1";
+        document.getElementById('inp49').readOnly = true;
+        document.getElementById("inp53").value = "3";
+        document.getElementById('inp53').readOnly = true;
+        document.getElementById("inp57").value = "1";
+        document.getElementById('inp57').readOnly = true;
+        document.getElementById("inp62").value = "6";
+        document.getElementById('inp62').readOnly = true;
+        document.getElementById("inp63").value = "8";
+        document.getElementById('inp63').readOnly = true;
+        document.getElementById("inp66").value = "8";
+        document.getElementById('inp66').readOnly = true;
+        document.getElementById("inp67").value = "5";
+        document.getElementById('inp67').readOnly = true;
+        document.getElementById("inp71").value = "1";
+        document.getElementById('inp71').readOnly = true;
+        document.getElementById("inp74").value = "9";
+        document.getElementById('inp74').readOnly = true;
+        document.getElementById("inp79").value = "4";
+        document.getElementById('inp79').readOnly = true;
       }
-//-- REQUIREMENTS --// 
-// - uniquely ordered arrays
-// - must #'s 1-9, no 0's 
+
+// -- Requires... 
+// -- uniquely ordered arrays
+// -- must #'s 1-9, no 0's 
 function validSolution(board){
 // return "false" if the table contains any 0's
 var stringboard = board.join("");
